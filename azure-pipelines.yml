@@ -10,7 +10,7 @@ steps:
     publishWebProjects: true
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: 'Towards-AzureD'
+    azureSubscription: 'Pay-As-You-Go'
     appType: 'webAppLinux'
     appName: 'microsoftusdco'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
